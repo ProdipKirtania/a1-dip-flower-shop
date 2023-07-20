@@ -199,3 +199,38 @@ body {
 .highlight {
     color: #E55473;
 }
+
+
+
+/* instagram section styles starts*/
+.insta-section {
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.insta-text-box {
+    text-align: center;
+    width: 80vh;
+    padding-left: 400px;
+}
+
+.insta-title {
+    font-size: 28px;
+}
+
+.insta-desc {
+    font-size: 14px;
+    color: #888283;
+    padding: 10px 0;
+}
+
+.insta-img-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.insta-img {
+    width: 240px;
+}

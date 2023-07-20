@@ -8,11 +8,25 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #2d2b2b;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #de365a;
 }
 
 
-
-/* header-banner Section Start */
+/* header-banner Section styles */
 .header-banner {
     display: flex;
     align-items: center;
@@ -50,15 +64,61 @@ body {
     width: 400px;
 }
 
-.btn-main {
-    width: 130px;
-    height: 40px;
-    margin: 20px 0px 20px;
-    border: none;
-    border-radius: 5px;
-    background: #E55473;
-    color: #fff;
+
+
+
+/* Featured Flowers section styles */
+.feat-flowers {
+    display: flex;
+    height: 100vh;
+    background: #FFFFFF;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
 }
-.btn-main:hover{
-    background: #de365a;
+
+.feat-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feat-title {
+    font-size: 24px;
+}
+
+.feat-desc {
+    color: #888283;
+    font-size: 14px;
+    padding: 20px 360px;
+}
+.flowers {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.flower-box{
+    width: 200px;
+    height: 280px;
+    border-radius: 300px 300px 0px 0px;
+    padding: 100px 60px 0px 60px;
+}
+#fl1 {
+    background: #F1DDE7;
+}
+
+#fl2 {
+    background: #D9EFF0;
+}
+
+#fl3 {
+    background: #E3EBDB;
+}
+
+.flower-desc {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-line: underline;
 }

@@ -21,7 +21,7 @@ body {
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background: #de365a;
 }
 
@@ -67,7 +67,7 @@ body {
 
 
 
-/* Featured Flowers section styles */
+/* Featured Flowers section styles starts*/
 .feat-flowers {
     display: flex;
     height: 100vh;
@@ -91,18 +91,20 @@ body {
     font-size: 14px;
     padding: 20px 360px;
 }
+
 .flowers {
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-.flower-box{
+.flower-box {
     width: 200px;
     height: 280px;
     border-radius: 300px 300px 0px 0px;
     padding: 100px 60px 0px 60px;
 }
+
 #fl1 {
     background: #F1DDE7;
 }
@@ -121,4 +123,42 @@ body {
     font-weight: bold;
     text-align: center;
     text-decoration-line: underline;
+}
+
+
+
+/* service-info section styles starts */
+.service-info-section {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+}
+
+.service-info-container {
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+    height: 30vh;
+}
+
+.ser-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ser-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.ser-desc {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
 }

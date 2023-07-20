@@ -37,6 +37,7 @@ header {
     justify-content: space-between;
     padding: 10px 0;
     align-items: center;
+    z-index: 50;
   }
   
   .logo h2 {
@@ -264,7 +265,7 @@ nav {
 /* instagram section styles starts*/
 .insta-section {
     padding-top: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 .insta-text-box {
@@ -304,6 +305,7 @@ nav {
     height: 50vh;
     width: 78%;
     margin: 0 auto;
+    margin-bottom: 90px;
 }
 
 .deal-section h2{
@@ -341,3 +343,35 @@ nav {
     height: 50px;
 }
   
+
+/* footer section styles start */
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #0b0202;
+    height: 40vh;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.footer-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    font-style: normal;
+    width: 500px;
+}
+
+.copyright p{
+    color: rgba(229, 84, 115, 0.554);
+}
